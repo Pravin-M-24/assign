@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(211,211,211,0.3);
+}
+p span{
+    color:orange;
+    font-size: 14px;
+}
+.top{
+    position: sticky;
+    top:0px;
+    z-index: 10;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin:0px;
+    background-color: white;
+}
+.search_input{
+   width: 650px;
+   height: 34.5px;
+   padding: 17.5px;
+   background-color:aliceblue;
+   font-size: 17px;
+   border-radius: 0 8px 8px 0;
+   border-color: transparent;
+}
+.input{
+    display: flex;
+    
+}
+.search_icon{
+    border-radius: 8px 0  0 8px;
+    background-color: aliceblue;
+    height: 38px;
+    padding-left: 8px;
+    border-color: transparent;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login img{
+   margin: 5px; 
+}
+.login span{
+    font-size: 17px;
+}
+.cart img{
+    margin: 5px;
+}
+.cart span{
+    font-size: 17px;
+}
+.seller img{
+    margin:5px;
+}
+.seller span{
+    font-size: 17px;
+}
+/* main item section */
+main{
+    position: relative;
+    margin: 10px 20px;
+    background-color: white;
+}
+.item{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.item div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item img{
+    object-fit: cover;
+}
+.fashion{
+    position: relative;
+    bottom: 10px;
+}
